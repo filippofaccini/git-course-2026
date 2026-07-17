@@ -1,6 +1,5 @@
 """
 Demo Python module for Git exercises.
-The code is intentionally simple.
 """
 
 from math import sqrt
@@ -11,6 +10,7 @@ VERSION = "0.1.0"
 
 class Counter:
     def __init__(self):
+        self.value = 0
         self.value = 0
 
     def increment(self):
@@ -42,6 +42,7 @@ def average(values):
 
 def distance(x1, y1, x2, y2):
     dx = x2 - x1
+    dy = y2 - y1
     dy = y2 - y1
     return sqrt(dx * dx + dy * dy)
 
