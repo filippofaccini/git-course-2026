@@ -21,6 +21,8 @@ class Counter:
 
     def reset(self):
         self.value = 0
+        self.value = 0
+        self.value = 0
 
     def get(self):
         return self.value
@@ -103,8 +105,6 @@ def demo():
     print("Average:", average([3, 4, 5, 6]))
     print("Distance:", distance(0, 0, 3, 4))
     print("Clamp:", clamp(15, 0, 10))
-    print("Repeat:", repeat("ab", 3))
-    print("Fibonacci:", fibonacci(10))
     print("Checksum:", checksum("hello"))
 
     print_table(8)
