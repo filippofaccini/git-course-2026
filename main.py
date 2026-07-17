@@ -110,4 +110,5 @@ def demo():
 
 
 if __name__ == "__main__":
+    print("We are on main function")
     demo()
